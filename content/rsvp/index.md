@@ -86,7 +86,7 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
 						<div class="col-md-4" style="display:none;">
 							<!-- People -->
 							<span class="txt9">
-									Joining for Jetboat ride Friday? <a href="/schedule#jetboats" style="text-decoration: underline;">(more info)</a>
+									Joining for Jetboat ride Friday? <a href="/schedule#jetboats" target="_blank" style="text-decoration: underline;">(more info)</a>
 							</span>
 
 							<div class="wrap-inputpeople size12 bo2 bo-rad-10 m-t-3 m-b-23">

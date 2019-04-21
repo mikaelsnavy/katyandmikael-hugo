@@ -14,9 +14,7 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
                         Crook Point, Oregon
                     </h3>
                 </div>
-
                 <br>
-
                 <p style="text-align: center">Our wedding will take place at Crook Point near Gold Beach, Oregon. For directions, please use the below map.</p>
             </div>
         </div>
