@@ -1,0 +1,9 @@
+# Hugo dirs
+resources/*
+public/*
+
+# Node
+node_modules/*
+
+# Secrets
+*.env

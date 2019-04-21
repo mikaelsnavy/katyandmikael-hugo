@@ -1,0 +1,14 @@
+{{ define "title" }}{{ .Title }}{{ end }}
+
+{{ define "content" }}
+    <section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url({{ .Params.featured_image }}); background-repeat: no-repeat; background-size: cover;  background-position: 50% 40%;">
+        <h2 class="tit6 t-center">
+            {{ .Title }}
+        </h2>
+    </section>
+    <div class="content">
+        {{ .Content }}
+    </div>
+{{ end }}
+
+{{ define "footer_blurb"}}{{if isset .Params "footer_blurb"}}{{ .Params.footer_blurb | safeHTML }}{{end}}{{end}}

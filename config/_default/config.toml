@@ -1,0 +1,4 @@
+baseURL = "https://katyandmikael.com/"
+languageCode = "en-us"
+title = "Katy and Mikael's Wedding Website"
+disableKinds = ["taxonomy", "taxonomyTerm"]
