@@ -172,7 +172,4 @@
             $(this).addClass('is-actived');
         });
     });
-
-    
-
 })(jQuery);

@@ -9,13 +9,18 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://mgpulido.co\
         <div class="row">
             <div class="col-lg-12 p-b-30">
                 <div class="t-center">
-                    <span class="tit2 t-center">
-                        More Information Coming Soon
-                    </span>
-
-                    <!--<h3 class="tit3 t-center m-b-35 m-t-2">
-                        Tell us you're COMING
-                    </h3>-->
+                    <h2 class="tit3 t-center m-b-35 m-t-2">
+                        Friday
+                    </h2>
+                    <h3 class="tit2 t-center m-b-35 m-t-2">
+                        Jetboats
+                    </h3>
+                    <h2 class="tit3 t-center m-b-35 m-t-2">
+                        Saturday
+                    </h2>
+                    <h3 class="tit2 t-center m-b-35 m-t-2">
+                        Wedding
+                    </h3>
                 </div>
 
                 <br>

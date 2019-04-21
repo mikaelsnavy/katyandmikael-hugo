@@ -15,7 +15,7 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
 					</span>-->
 
 					<h3 class="tit3 t-center m-b-35 m-t-2">
-						Tell us you're COMING
+						Let us know if you're coming
 					</h3>
 				</div>
 
@@ -35,61 +35,74 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
 
 					<div class="row">
 						<div class="col-md-4">
+							<!-- People -->
+							<span class="txt9">
+									Are you coming?
+							</span>
+
+							<div class="wrap-inputpeople size12 bo2 bo-rad-10 m-t-3 m-b-23">
+								<!-- Select2 -->
+								<select class="selection-1" name="rsvp" id="rsvp-select">
+									<option>--Select--</option>
+									<option>Yes</option>
+									<option>No</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-4" style="display:none;" >
 							<!-- Phone -->
 							<span class="txt9">
 								Phone
 							</span>
 
 							<div class="wrap-inputphone size12 bo2 bo-rad-10 m-t-3 m-b-23">
-								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone" placeholder="Phone" />
+								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone" placeholder="Phone" id="phone-input" />
 							</div>
 						</div>
 
-						<div class="col-md-4">
+						<div class="col-md-4" style="display:none;">
 							<!-- Email -->
 							<span class="txt9">
 								Email
 							</span>
 
 							<div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
-								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text"  name="email" placeholder="Email" />
+								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text"  name="email" placeholder="Email" id="email-input" />
 							</div>
 						</div>
-
-						<div class="col-md-4">
-								<!-- People -->
-								<span class="txt9">
-										Accommodation Preference
-								</span>
-
-								<div class="wrap-inputpeople size12 bo2 bo-rad-10 m-t-3 m-b-23">
-									<!-- Select2 -->
-									<select class="selection-1" name="stay_pref">
-										<option>No Preference</option>
-										<option>Beach House (on property) $$$</option>
-										<option>Hotel $$</option>
-										<option>Camping (on property) $</option>
-									</select>
-								</div>
-							</div>
 					</div>
 
 					<div class="row">
-							<div class="col-md-12">
-								<!-- Name -->
-								<span class="txt9">
-									Dietary Restrictions
-								</span>
+						<div class="col-md-8" style="display:none;" id="dietary-restrictions-div" >
+							<!-- Name -->
+							<span class="txt9" id="dietary-restrictions-label">
+								Dietary Restrictions
+							</span>
 
-								<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
-									<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="dietary" placeholder="Dietary Restrictions" />
-								</div>
+							<div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+								<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="dietary" placeholder="Dietary Restrictions" id="dietary-input" />
 							</div>
 						</div>
+						<div class="col-md-4" style="display:none;">
+							<!-- People -->
+							<span class="txt9">
+									Joining for Jetboat ride Friday? <a href="/schedule#jetboats" style="text-decoration: underline;">(more info)</a>
+							</span>
+
+							<div class="wrap-inputpeople size12 bo2 bo-rad-10 m-t-3 m-b-23">
+								<!-- Select2 -->
+								<select class="selection-1" name="jetboat" id="jetboat-select">
+									<option>--Select--</option>
+									<option>Yes</option>
+									<option>No</option>
+								</select>
+							</div>
+						</div>
+					</div>
 
 					<div class="wrap-btn-booking flex-c-m m-t-6">
 						<!-- Button3 -->
-						<button id="submit-form" type="submit" class="btn3 flex-c-m size13 txt11 trans-0-4">
+						<button id="submit-form" type="submit" class="btn3 flex-c-m size13 txt11 trans-0-4" style="display:none;">
 							RSVP
 						</button>
 					</div>
@@ -110,3 +123,37 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
 		</div>
 	</div>
 </section>
+
+
+<!-- Container Selection1 -->
+<div id="dropDownSelect1"></div>
+
+<!-- Modal -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true" data-backdrop="false">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="confirmationModalLabel">Success</h5>
+		</div>
+		<div class="modal-body">
+			<p>We've received your RSVP! Thank you so much. 🎊❤✨</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		</div>
+		</div>
+	</div>
+	</div>
+
+<div class="modal fade" id="sendingModal" tabindex="-1" role="dialog" aria-labelledby="sendingModalLabel" aria-hidden="true" data-backdrop="false">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+		<div class="modal-header">
+			<h5 class="modal-title" id="sendingModalLabel">Sending....</h5>
+		</div>
+		<div class="modal-body">
+			<p>Sending your RSVP now at about 1/3rd the speed of light... ⚡</p>
+		</div>
+		</div>
+	</div>
+</div>

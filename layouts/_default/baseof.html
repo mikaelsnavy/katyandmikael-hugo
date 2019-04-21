@@ -125,7 +125,7 @@
 		<div class="end-footer bg2">
 			<div class="container">
 				<div class="flex-sb-m flex-w p-t-22 p-b-22">
-					<div class="txt17 p-r-20 p-t-5 p-b-5">
+					<div class="txt17 p-r-20 p-t-5 p-b-5" style="width:100%; text-align: center;">
 						Copyright &copy; {{ dateFormat "2006" now }} All rights reserved  |  This template is made with ❤ by <a href="https://colorlib.com" target="_blank">Colorlib</a>{{block "footer_blurb" .}}{{end}}
 					</div>
 				</div>
@@ -160,6 +160,54 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 <!--===============================================================================================-->
 	<script src="/js/main.js"></script>
+	<script src="/js/jquery.serialize-object.min.js"></script>
+
+	<script>
+		
+		var $form = $('form#rsvp-form'),
+			url = 'https://script.google.com/macros/s/AKfycbw2dosIyTA2UHvdjXXNW13En6FhbtJGqU5hKXkx4Y7eD2aiib4/exec'
+
+		$('#submit-form').on('click', function(e) {
+				e.preventDefault();
+				$("#sendingModal").modal()
+
+				var jqxhr = $.ajax({
+				url: url,
+				method: "GET",
+				dataType: "json",
+				data: $form.serializeObject()
+			}).done(function() {
+				$("#sendingModal").hide()
+				$("#confirmationModal").modal()
+				$('form#rsvp-form').trigger("reset");
+			})
+			.fail(function() {
+				alert( "Oh no! Something is wrong with the site. Please use the Questions page and let us know!" );
+			})
+			.always(function() {
+				//console.log( "complete" );
+			});
+
+		})
+
+		$("#rsvp-select").change(function(){
+			if ($(this)[0].selectedOptions[0].innerText === "Yes") {
+				$("#phone-input").parent().parent().show();
+				$("#email-input").parent().parent().show();
+				$("#dietary-input").parent().parent().show();
+				$("#jetboat-select").parent().parent().show();
+
+				$("#submit-form").show();
+			} else {
+				$("#phone-input").parent().parent().hide();
+				$("#email-input").parent().parent().hide();
+				$("#dietary-input").parent().parent().hide();
+				$("#jetboat-select").parent().parent().hide();
+
+				$("#submit-form").show();
+			}
+		});
+	</script>
 
 </body>
 </html>
