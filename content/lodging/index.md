@@ -13,9 +13,9 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
                         <h2 class="tit3 t-center m-b-35 m-t-2">
                             Overview
                         </h2>
-                        <p class="txt9">We have not reserved a hotel block, so guests are responsible for arranging their own lodging. Please reach out if you would like any help choosing lodging! We want you to be as comfortable as possible. The summer is tourist season on the South Oregon Coast, so lodging does tend to book up a month or two in advance. We recommend a hotel or rental. Camping or RVing on property may also be an option. Please reach out to us for more details if you're interested.</p>
+                        <p class="txt9">Our venue, located at Crook Point Oregon, is about a 20 minute drive from both Gold Beach and Brookings. Lodging in either of those towns will work perfect. Gold Beach is north of Crook Point and thus closer to Portland and Eugene and more convenient for guests coming from northern Oregon. Brookings is a larger town south of Crook Point and generally has more amenities.</p>
                         <br />
-                        <p class="txt9">Our venue, located at Crook Point Oregon, is about a 20 minute drive from both Gold Beach and Brookings. Lodging in either of those towns will work perfect. Gold Beach is north of Crook Point and thus closer to Portland and Eugene and more convient for guests coming from northern Oregon. Brookings is a larger town south of Crook Point and generally has more amenities.</p>
+                        <p class="txt9">To give our guests more choice and flexibility, we have not reserved a hotel block. There are many options in the area and we have listed some below. Please reach out if you would like any help choosing or arranging your lodging! We want you to be as comfortable as possible. The summer is tourist season on the South Oregon Coast, so lodging does tend to book up about a month in advance.</p>
                         <br />
                         <br />
                         <h2 class="tit3 t-center m-b-35 m-t-2">
