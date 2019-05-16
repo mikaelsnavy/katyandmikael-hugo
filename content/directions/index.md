@@ -16,6 +16,8 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
                 </div>
                 <br>
                 <p style="text-align: center">The venue is located 14 miles north of Brookings, Oregon and 13 miles south of Gold Beach, Oregon, between mileposts 341 and 342. When traveling south from Gold Beach, you will cross the Pistol River Bridge (10 miles) and will then pass Byrdies road, turning right (west) on Arch Rock Place. If you travel too far, you will pass milepost 342 and Burnt Hill Beach road. When traveling north from Brookings, you will cross the Thomas Creek Bridge (10 miles) and the Burnt Hill Creek fill (14 miles) and then Burnt Hill Beach road. Turn left (west) at Arch Rock Place. If you travel too far, you will pass Byrdies Road.</p>
+                <br />
+                <p>If you are looking to carpool with others, checkout <a href="https://docs.google.com/spreadsheets/d/11BBVWcBscyb0wW6KWGss0NactEaBs8IpPryGZtH93qo/edit?ts=5cdc7696#gid=0">this online spreadsheet</a>.</p>
             </div>
         </div>
         <div class="row">
