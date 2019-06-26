@@ -3,6 +3,7 @@ title: RSVP
 type: post
 featured_image: /images/sneak-peek-catalina-jean-photography-6.jpg
 footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean.com\" target=\"_blank\">Catalina Jean Photography</a>"
+draft: true
 ---
 <!-- Reservation -->
 <section class="section-reservation bg1-pattern p-t-100 p-b-113">
