@@ -24,7 +24,7 @@ footer_blurb:  "  |  Photos on this page taken by <a href=\"https://catalinajean
             <!-- Map -->
             <div class="container">
                 <div style="overflow:hidden; margin:0 auto; display:block;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5906.505326483536!2d-124.4178203!3d42.2517766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54dab8a522375727%3A0x9a4bf7d2dc8d3f9d!2sCrook+Point!5e0!3m2!1sen!2sus!4v1533624822460" width="600" height="450" frameborder="0" style="border:0; display:block;margin: 0 auto;" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2953.7923128703637!2d-124.39491621934685!3d42.2402498094671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54dab8c488de0811%3A0x4891be071f1a0460!2sCo+Hwy+696%2C+Gold+Beach%2C+OR+97444!5e0!3m2!1sen!2sus!4v1562612242075!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
